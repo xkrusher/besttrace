@@ -7,7 +7,7 @@
 **一键脚本**
  
     #下载脚本
-    wget -O besttrace.sh https://raw.githubusercontent.com/xkrusher/besttrace/main/besttrace.sh
+    wget https://raw.githubusercontent.com/xkrusher/besttrace/main/besttrace.sh
     
     #运行脚本（再次检查也仅需运行下面代码）
     bash besttrace.sh
