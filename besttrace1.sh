@@ -155,7 +155,6 @@ repeat_test_alternative(){
 	[[ "${whether_repeat_alternative}" == "2" ]] && echo -e "${Info} 退出脚本 ..." && exit 0
 }
 
-
 test_all(){
 	result_all	'202.96.209.5'  	'上海电信'
 	result_all	'61.188.6.210'		'成都电信'
@@ -164,7 +163,6 @@ test_all(){
 	result_all	'211.136.192.6'		'广州移动'
 	result_all	'183.221.253.66'	'成都移动'
 	result_all	'202.205.6.30'		'北京教育网'
-
 	echo -e "${Info} 四网路由快速测试 已完成 ！"
 }
 result_all(){
@@ -173,7 +171,6 @@ result_all(){
 	./besttrace -q 1 $1
 	echo -e "${Info} 测试路由 到 ${ISP_name} 完成 ！"
 }
-
 test_all(){
 	result_all	'202.96.209.5'  	'上海电信'
 	result_all	'61.188.6.210'		'成都电信'
@@ -182,7 +179,6 @@ test_all(){
 	result_all	'211.136.192.6'		'广州移动'	
 	result_all	'183.221.253.66'	'成都移动'
 	result_all	'202.205.6.30'		'北京教育网'
-
 	echo -e "${Info} 四网路由快速测试 已完成 ！"
 }
 
@@ -193,7 +189,7 @@ install
 cd besttrace
 
 echo -e "${Info} 选择你要使用的功能: "
-echo -e "1.选择一个运营商进行测试\n2.四网路由快速测试\n3.手动输入 ip 进行测试"
+echo -e "1.选择一个运营商进行测试\n2.四网路由快速测试\n3.手动输入ip进行测试"
 read -p "输入数字以选择:" function
 
 	while [[ ! "${function}" =~ ^[1-3]$ ]]
