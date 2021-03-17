@@ -27,8 +27,7 @@ check_root(){
 directory(){
 	[[ ! -d /home/testrace ]] && mkdir -p /home/testrace
 	cd /home/testrace
-	rm -rf *
-}
+	}
 install(){
 	[[ ! -d /home/testrace/besttrace ]] && wget https://github.com/xkrusher/BestTrace/releases/download/1.1/besttrace4linux.zip && unzip *zip -d ./besttrace && rm *zip
 	[[ ! -d /home/testrace/besttrace ]] && echo -e "${Error} download failed, please check!" && exit 1
