@@ -158,17 +158,11 @@ repeat_test_alternative(){
 
 test_all(){
 	result_all	'202.96.209.5'  	'上海电信'
-	
-    	result_all	'61.188.6.210'		'成都电信'
-
+	result_all	'61.188.6.210'		'成都电信'
 	result_all	'202.106.196.115'	'北京联通'
-	
 	result_all	'119.6.6.6'		'成都联通'
-
-	result_all	'211.136.192.6'		'广州移动
-	
+	result_all	'211.136.192.6'		'广州移动'
 	result_all	'183.221.253.66'	'成都移动'
-
 	result_all	'202.205.6.30'		'北京教育网'
 
 	echo -e "${Info} 四网路由快速测试 已完成 ！"
@@ -182,17 +176,11 @@ result_all(){
 
 test_all(){
 	result_all	'202.96.209.5'  	'上海电信'
-	
-    	result_all	'61.188.6.210'		'成都电信'
-
-	result_all	'202.106.196.115'	'北京联通'
-	
+	result_all	'61.188.6.210'		'成都电信'
+	result_all	'202.106.196.115'	'北京联通'	
 	result_all	'119.6.6.6'		'成都联通'
-
-	result_all	'211.136.192.6'		'广州移动
-	
+	result_all	'211.136.192.6'		'广州移动'	
 	result_all	'183.221.253.66'	'成都移动'
-
 	result_all	'202.205.6.30'		'北京教育网'
 
 	echo -e "${Info} 四网路由快速测试 已完成 ！"
