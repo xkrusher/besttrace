@@ -29,7 +29,7 @@ directory(){
 	cd /home/testrace
 }
 install(){
-	[[ ! -d /home/testrace/besttrace ]] && wget https://github.com/xkrusher/BestTrace/releases/download/1.1/besttrace4linux.zip && unzip besttrace* && rm BestTrace*
+	[[ ! -d /home/testrace/besttrace ]] && wget https://github.com/xkrusher/BestTrace/releases/download/1.1/besttrace4linux.zip && unzip besttrace* && rm besttrace4linux.zip
 	[[ ! -d /home/testrace/besttrace ]] && echo -e "${Error} download failed, please check!" && exit 1
 	chmod -R +x /home/testrace
 }
