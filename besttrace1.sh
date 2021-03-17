@@ -133,7 +133,7 @@ node_3(){
 	[[ "${node}" == "6" ]] && ISP_name="昆明移动" && ip=39.130.140.2
 }
 node_4(){
-	ISP_name="北京教育网" && ip=202.205.6.30
+	ISP_name="北京教育网" && ip=219.224.102.230
 }
 result_alternative(){
 	echo -e "${Info} 测试路由 到 ${ISP_name} 中 ..."
